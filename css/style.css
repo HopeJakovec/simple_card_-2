@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: url(../images/Img.png);
+    background-repeat: no-repeat;
+    color: #fff;
+
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.container .header1 {
+    margin-top: 135px;
+    text-align: center;
+
+    font-family: 'Arvo', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+}
+
+.content {
+    margin-top: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 875px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .content-item:nth-child(1) {
+    margin-right: 84px;
+}
+
+.content .content-item:nth-child(2) {
+    margin-right: 92px;
+}
+
+.content .content-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .item-header4 {
+    margin-top: 12px;
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.4px;
+}
+
+.content .item-text {
+    margin-top: 26px;
+    text-align: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.container .button {
+    margin: 50px auto 132px;
+    display: block;
+    cursor: pointer;
+
+    background-color: #FFC80A;
+    max-width: 235px;
+    width: 100%;
+    height: 61px;
+    border: none;
+    border-radius: 49.5px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    color: #4C4C4C;
+}
